@@ -1,3 +1,11 @@
+
+The package include : 
+* jQuery
+* What-input
+* foundation-sites
+* sass-material-colors
+* lodash
+
 ## Installation
 
 ```sh
@@ -12,8 +20,29 @@ in gulp-settings.js file
 
 ```javascript
 const settings = {
-    "src": "src_assets", // source files path
-    "dest": "webroot" // destination files path
+    // source files path
+    src: "src_assets", 
+
+    // destination files path
+    dest: "webroot",
+
+    // Assets to copy
+    assets: {
+        js: [
+            './node_modules/foundation-sites/dist/js/foundation.js',
+            './node_modules/foundation-sites/dist/js/foundation.min.js',
+            './node_modules/jquery/dist/jquery.js',
+            './node_modules/jquery/dist/jquery.min.js',
+            './node_modules/what-input/dist/what-input.min.js',
+            './node_modules/what-input/dist/what-input.js',
+            './node_modules/lodash/lodash.js',
+            './node_modules/lodash/lodash.min.js'
+        ],
+        css: [
+            //'./node_modules/normalize.css/normalize.css'
+        ]
+    }
+
 }
 ```
 
