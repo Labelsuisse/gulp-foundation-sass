@@ -1,5 +1,5 @@
 
-The package include : 
+This package include : 
 * jQuery
 * What-input
 * foundation-sites
