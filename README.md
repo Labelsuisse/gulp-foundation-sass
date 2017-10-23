@@ -7,7 +7,17 @@ $ npm install
 
 ```
 
-## Run commandes
+## Config paths
+in gulp-settings.js file
+
+```javascript
+const settings = {
+    "src": "src_assets", // source files path
+    "dest": "webroot" // destination files path
+}
+```
+
+## Run commands
 
 ### Initialize files
 
