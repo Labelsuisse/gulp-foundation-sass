@@ -2,3 +2,5 @@
 node_modules
 webroot
 package-lock.json
+test
+.sass-cache

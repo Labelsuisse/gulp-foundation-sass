@@ -1,7 +1,7 @@
 {
-  "name": "gulp-foundation-sass",
+  "name": "gulp-starter-kit",
   "version": "1.0.0",
-  "description": "Start project with Zurb foundation and all dependencies",
+  "description": "Example start project with gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,9 +15,12 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
     "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^3.9.0",
     "gulp-compass": "^2.1.0",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
+    "gulp-minify": "^1.0.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1",
     "jshint": "^2.9.5",
@@ -27,5 +30,6 @@
     "sass-material-colors": "0.0.5",
     "standard": "^10.0.1"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }

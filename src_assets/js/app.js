@@ -1,4 +1,3 @@
 (function ($) {
-
-  $(document).foundation()
-})(window.jQuery)
+  $(document).foundation();
+})(window.jQuery);
